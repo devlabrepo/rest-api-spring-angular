@@ -16,7 +16,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // konfigurujemy nazwę kolumny w tabeli po stronie bazy danych oraz parametry takie jak nie pusty i unikalny.
+    // konfigurujemy nazwę kolumny w tabeli po stronie bazy danych oraz parametry takie jak niepusty i unikalny.
     @Column(name = "title", nullable = false, unique = true)
     private String title;
 
